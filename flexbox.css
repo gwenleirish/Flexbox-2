@@ -1,0 +1,33 @@
+/* nav */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+nav {
+    background: gray;
+    margin-top: -3px;
+    position: sticky;
+    top: 100px;
+    display: flex;
+    
+}
+nav > ul {
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    width: 25%;
+    padding: 1rem;
+}
+
+nav a {
+    color: black;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
